@@ -1,0 +1,13 @@
+{
+    "routes": [
+        {
+            "src": "/admin",
+            "dest": "/"
+        },
+        {
+            "src": "/api/(.*)",
+            "dest": "api/index.py"
+        }
+
+    ]
+}

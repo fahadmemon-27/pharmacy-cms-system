@@ -1,0 +1,1 @@
+.\venv\Scripts\activate&&uvicorn index:app --reload 
